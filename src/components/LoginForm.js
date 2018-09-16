@@ -32,7 +32,7 @@ class LoginForm extends React.Component {
             Password
              <input value={this.state.password}
              onChange={(e) => this.setState({
-               password:e.target.value
+               password: e.target.value
              })}
             id="test-password" type="password" />
           </label>
