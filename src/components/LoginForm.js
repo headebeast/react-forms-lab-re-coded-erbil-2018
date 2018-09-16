@@ -39,7 +39,7 @@ class LoginForm extends React.Component {
         </div>
         <div>
           <button onClick ={() => {
- if(this.state.username !=="" && this.state.password!=="")
+ if(this.state.username !=="" && this.state.password !=="" )
     return this.props.onSubmit()
           }}
           type="submit">Log in</button>
